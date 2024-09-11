@@ -3,9 +3,9 @@ const EINF = Decimal.dInf
 
 const ST_NAMES = [
 	null, [
-		["","U","D","T","Qa","Qi","Sx","Sp","Oc","No"],
-		["","Dc","Vg","Tg","Qag","Qig","Sxg","Spg","Ocg","Nog"],
-		["","Ce","De","Te","Qae","Qie","Sxe","Spe","Oce","Noe"],
+		["","U","D","T","Qd","Qn","Sx","Sp","Oc","No"],
+		["","Dc","Vg","Tg","qg","Qg","sg","Sg","Og","Ng"],
+		["","Ce","Du","Tr","Qa","Qi","Se","St","Ot","Nn"],
 	],[
 		["","Mi","Mc","Na","Pc","Fm","At","Zp","Yc","Xn"],
 		["","Me","Du","Tr","Te","Pe","He","Hp","Ot","En"],
