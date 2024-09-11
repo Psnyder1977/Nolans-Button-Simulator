@@ -31,7 +31,7 @@ let achievements = {
         name: "Cash millionaire",
         row: 1,
         id: "14",
-        desc: "Get 1,000,000 cash",
+        desc: "Get " + format('1e6') + " cash",
         check() {
             return player.currencies[0].value.gte(1e6);
         }
@@ -49,7 +49,7 @@ let achievements = {
         name: "The sixth achievement",
         row: 1,
         id: "16",
-        desc: "Get 1,000,000 rebirths",
+        desc: "Get " + format('1e6') + " rebirths",
         check() {
             return player.currencies[2].value.gte(1e6);
         }
@@ -85,7 +85,7 @@ let achievements = {
         name: "Decillionaire",
         row: 2,
         id: "21",
-        desc: "Get 1.00e33 cash",
+        desc: "Get " + format('1e33') + " cash",
         check() {
             return player.currencies[0].value.gte(1e33);
         }
@@ -103,7 +103,7 @@ let achievements = {
         name: "Vigintillionaire",
         row: 2,
         id: "23",
-        desc: "Get 1.00e63 cash",
+        desc: "Get " + format("1e63) + " cash",
         check() {
             return player.currencies[0].value.gte(1e63);
         }
@@ -121,7 +121,7 @@ let achievements = {
         name: "Googol",
         row: 2,
         id: "25",
-        desc: "Get 1.00e100 cash",
+        desc: "Get " + format('e100') + " cash",
         check() {
             return player.currencies[0].value.gte(1e100);
         }
@@ -157,7 +157,7 @@ let achievements = {
         name: "Gargoogol",
         row: 2,
         id: "29",
-        desc: "Get 1.00e200 cash",
+        desc: "Get " + format('e200') + " cash",
         check() {
             return player.currencies[0].value.gte(1e200);
         }
@@ -184,7 +184,7 @@ let achievements = {
         name: "Infinity",
         row: 3,
         id: "33",
-        desc: "Get 179.8UCe cash",
+        desc: "Get " + format('1.798e308') + " cash",
         check() {
             return player.currencies[0].value.gte(E(2).pow(1024));
         }
@@ -211,7 +211,7 @@ let achievements = {
         name: "The beginning of inflation",
         row: 3,
         id: "36",
-        desc: "Get 1.00e933 cash",
+        desc: "Get " + format('e933') + " cash",
         check() {
             return player.currencies[0].value.gte('1e933');
         }
@@ -229,7 +229,7 @@ let achievements = {
         name: "Millillionaire",
         row: 3,
         id: "38",
-        desc: "Get 1.00e3003 cash",
+        desc: "Get " + format('e3003) + " cash",
         check() {
             return player.currencies[0].value.gte('1e3003');
         }
@@ -256,7 +256,7 @@ let achievements = {
         name: "Micrillionaire",
         row: 4,
         id: "42",
-        desc: "Get 1.00e3.000M cash",
+        desc: "Get " + format('e3000003') + " cash",
         check() {
             return  player.currencies[0].value.gte('1e3000003');
         }
@@ -292,7 +292,7 @@ let achievements = {
         name: "Infinity II",
         row: 4,
         id: "46",
-        desc: "Get e9e15 cash, Reward: 100,000x cash, and auto rank up!",
+        desc: "Get " + format('e9007199254740992') + " cash, Reward: 100,000x cash, and auto rank up!",
         check() {
             return  player.currencies[0].value.gte('e9e15');
         }
@@ -346,7 +346,7 @@ let achievements = {
         name: "Attillionaire",
         row: 5,
         id: "53",
-        desc: "Get e3e18 cash",
+        desc: "Get " + format('e3e18') + " cash",
         check() {
             return player.currencies[0].value.gte('e3e18')
         }
